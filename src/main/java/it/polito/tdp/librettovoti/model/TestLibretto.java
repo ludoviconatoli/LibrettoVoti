@@ -27,6 +27,10 @@ public class TestLibretto {
 		
 		Libretto vc = libretto.votiUguali(25);
 		System.out.println(vc);
+		
+		System.out.println("Cerca esame ANALISI I");
+		Voto cerca = libretto.ricercaCorso("ANALISI I");
+		System.out.println(cerca);
 	}
 	
 }
