@@ -29,7 +29,7 @@ public class TestLibretto {
 		System.out.println(vc);
 		
 		System.out.println("Cerca esame ANALISI I");
-		Voto cerca = libretto.ricercaCorso("ANALISI I");
+		Voto cerca = libretto.ricercaCorso("Analisi I");
 		System.out.println(cerca);
 	}
 	
